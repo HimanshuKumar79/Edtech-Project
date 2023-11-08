@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+   /* -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden; */
+ }
+
+
+ .bottomanimationUp{
+    height: 50px;
+    transition: height 1s ease-in-out;
+    animation: increaseHeight 200ms forwards;
+  }
+
+  @keyframes increaseHeight {
+    0% {
+        height: 50px;
+    }
+    100% {
+        height: 100px;
+    }
+}
