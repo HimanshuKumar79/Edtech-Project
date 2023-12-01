@@ -7,7 +7,6 @@ const CourseDetailPage = () => {
   const [selectedTab, setSelectedTab] = useState("Syllabus");
   const [tabs, setTabs] = useState(["Syllabus", "Instructor", "PreRequisites"]);
   const { courseId } = useParams();
-  const [test, setTest] = useState(null);
   const selectedCourseData = useSelector(
     (store) => store.selectedCourse.selectedCourse
   );
